@@ -16,7 +16,7 @@ ul {
 
 /* приховування заголовку */
 
-.visually-hidden {
+/*.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -28,7 +28,7 @@ ul {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+}*/
 /** --------------------HEADER------------------- */
 
 .header {}
@@ -68,7 +68,9 @@ ul {
     color: #404BBF;
 }
 
-.address {}
+.address {
+    font-style: normal
+}
 
 .address-menu-list {}
 
@@ -82,7 +84,6 @@ ul {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02rem;
-    font-style: normal
 }
 
 .address-menu-link:hover, 
