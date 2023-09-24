@@ -37,10 +37,10 @@ ul {
 
 .header-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 1.125rem;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.03375rem;
     text-transform: uppercase;
@@ -73,7 +73,6 @@ ul {
 .address-menu-list {}
 
 .address-menu-item {
-    font-style: normal;
 }
 
 .address-menu-link {
@@ -83,6 +82,7 @@ ul {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02rem;
+    font-style: normal
 }
 
 .address-menu-link:hover, 
@@ -168,9 +168,12 @@ background-color: #F4F4FD;
     text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+}
 
-.team-item {}
+.team-item {
+    background-color: #FFF
+}
 
 .team-img {}
 
@@ -198,7 +201,8 @@ background-color: #F4F4FD;
 
 /** --------------------PORTFOLIO------------------- */
 
-.portfolio {}
+.portfolio {
+}
 
 .portfolio-title {
     color: #2E2F42;
@@ -244,10 +248,10 @@ background-color: #2E2F42;
 
 .footer-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 1.125rem;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.03375rem;
     text-transform: uppercase;
